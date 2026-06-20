@@ -22,9 +22,9 @@ const SE_MULTIPLIER = 0.9235;
 export default function Home() {
   const [location] = useLocation();
 
-  const isUpwork = location === "/upwork-tax-calculator";
-  const isFiverr = location === "/fiverr-tax-calculator";
-  const is1099 = location === "/1099-tax-calculator";
+  const isUpwork = location === "/tools/upwork-tax-calculator";
+  const isFiverr = location === "/tools/fiverr-tax-calculator";
+  const is1099 = location === "/tools/1099-tax-calculator";
 
   let seoTitle = "US Freelance Net Income & Tax Calculator 2026";
   let seoDesc = "Calculate your true take-home pay as a US freelancer on Upwork, Fiverr, or direct clients. Accurately estimates 2026 self-employment taxes, Social Security caps, and platform fees.";

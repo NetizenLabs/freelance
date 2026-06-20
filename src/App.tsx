@@ -18,7 +18,10 @@ function useScrollToTop() {
 }
 
 // Pages
+import LandingPage from "@/pages/LandingPage";
 import Home from "@/pages/Home";
+import RateCalculator from "@/pages/tools/RateCalculator";
+import W2vs1099 from "@/pages/tools/W2vs1099";
 import About from "@/pages/About";
 import Terms from "@/pages/Terms";
 import Contact from "@/pages/Contact";
@@ -46,15 +49,24 @@ function MainLayout() {
             </div>
             <span className="font-semibold tracking-tight text-lg">FreelanceTax</span>
           </Link>
+          
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
+            <Link href="/tools/1099-tax-calculator" className="hover:text-foreground transition-colors">1099 Calculator</Link>
+            <Link href="/tools/w2-vs-1099" className="hover:text-foreground transition-colors">W-2 vs 1099</Link>
+            <Link href="/blog" className="hover:text-foreground transition-colors">Resources</Link>
+          </nav>
           <ThemeToggle />
         </div>
       </header>
 
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/upwork-tax-calculator" component={Home} />
-        <Route path="/fiverr-tax-calculator" component={Home} />
-        <Route path="/1099-tax-calculator" component={Home} />
+        <Route path="/" component={LandingPage} />
+        <Route path="/tools/1099-tax-calculator" component={Home} />
+        <Route path="/tools/upwork-tax-calculator" component={Home} />
+        <Route path="/tools/fiverr-tax-calculator" component={Home} />
+        <Route path="/tools/w2-vs-1099" component={W2vs1099} />
+        <Route path="/tools/hourly-rate-calculator" component={RateCalculator} />
         <Route path="/about" component={About} />
         <Route path="/terms" component={Terms} />
         <Route path="/contact" component={Contact} />
