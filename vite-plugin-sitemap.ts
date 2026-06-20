@@ -18,6 +18,11 @@ interface SitemapOptions {
 
 const STATIC_ROUTES: Omit<SitemapRoute, "lastmod">[] = [
   { path: "/", changefreq: "monthly", priority: "1.0" },
+  { path: "/tools/1099-tax-calculator", changefreq: "monthly", priority: "0.9" },
+  { path: "/tools/w2-vs-1099-calculator", changefreq: "monthly", priority: "0.9" },
+  { path: "/tools/freelance-hourly-rate-calculator", changefreq: "monthly", priority: "0.9" },
+  { path: "/tools/upwork-fee-and-tax-calculator", changefreq: "monthly", priority: "0.9" },
+  { path: "/tools/fiverr-fee-and-tax-calculator", changefreq: "monthly", priority: "0.9" },
   { path: "/about", changefreq: "yearly", priority: "0.5" },
   { path: "/contact", changefreq: "yearly", priority: "0.5" },
   { path: "/blog", changefreq: "weekly", priority: "0.8" },

@@ -12,9 +12,9 @@ const SE_MULTIPLIER = 0.9235;
 
 export default function W2vs1099() {
   useSeo({
-    title: "W-2 vs 1099 Calculator 2026 | Compare Job Offers",
-    description: "Compare a full-time W-2 salary offer against a 1099 freelance contract. See which offer gives you more take-home pay after taxes.",
-    path: "/tools/w2-vs-1099"
+    title: "W-2 vs 1099 Calculator 2026 | Freelance Salary Comparison",
+    description: "Compare a W-2 salary offer against a 1099 freelance contract. Calculate the exact difference in take-home pay after FICA, self-employment taxes, and deductions.",
+    path: "/tools/w2-vs-1099-calculator"
   });
 
   const [w2Input, setW2Input] = useState("80000");

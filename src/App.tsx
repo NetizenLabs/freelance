@@ -53,7 +53,7 @@ function MainLayout() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <Link href="/tools/1099-tax-calculator" className="hover:text-foreground transition-colors">1099 Calculator</Link>
-            <Link href="/tools/w2-vs-1099" className="hover:text-foreground transition-colors">W-2 vs 1099</Link>
+            <Link href="/tools/w2-vs-1099-calculator" className="hover:text-foreground transition-colors">W-2 vs 1099</Link>
             <Link href="/blog" className="hover:text-foreground transition-colors">Resources</Link>
           </nav>
           <ThemeToggle />
@@ -63,10 +63,10 @@ function MainLayout() {
       <Switch>
         <Route path="/" component={LandingPage} />
         <Route path="/tools/1099-tax-calculator" component={Home} />
-        <Route path="/tools/upwork-tax-calculator" component={Home} />
-        <Route path="/tools/fiverr-tax-calculator" component={Home} />
-        <Route path="/tools/w2-vs-1099" component={W2vs1099} />
-        <Route path="/tools/hourly-rate-calculator" component={RateCalculator} />
+        <Route path="/tools/upwork-fee-and-tax-calculator" component={Home} />
+        <Route path="/tools/fiverr-fee-and-tax-calculator" component={Home} />
+        <Route path="/tools/w2-vs-1099-calculator" component={W2vs1099} />
+        <Route path="/tools/freelance-hourly-rate-calculator" component={RateCalculator} />
         <Route path="/about" component={About} />
         <Route path="/terms" component={Terms} />
         <Route path="/contact" component={Contact} />

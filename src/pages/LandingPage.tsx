@@ -23,7 +23,7 @@ export default function LandingPage() {
       title: "W-2 vs 1099 Calculator",
       description: "Compare a full-time salary offer against a freelance contract to see which one actually pays more after taxes.",
       icon: <Briefcase className="h-6 w-6 text-blue-500" />,
-      href: "/tools/w2-vs-1099",
+      href: "/tools/w2-vs-1099-calculator",
       color: "bg-blue-500/10 border-blue-500/20",
       badge: "New"
     },
@@ -31,7 +31,7 @@ export default function LandingPage() {
       title: "Hourly Rate Calculator",
       description: "Determine exactly what you need to charge per hour to hit your target take-home pay after expenses and taxes.",
       icon: <Clock className="h-6 w-6 text-amber-500" />,
-      href: "/tools/hourly-rate-calculator",
+      href: "/tools/freelance-hourly-rate-calculator",
       color: "bg-amber-500/10 border-amber-500/20",
       badge: "Coming Soon"
     }
@@ -66,7 +66,7 @@ export default function LandingPage() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <Link href="/tools/w2-vs-1099">
+            <Link href="/tools/w2-vs-1099-calculator">
               <Button size="lg" variant="outline" className="h-12 px-8 text-lg font-medium bg-background/50 backdrop-blur-sm border-border hover:bg-muted/50">
                 Compare Job Offers
               </Button>

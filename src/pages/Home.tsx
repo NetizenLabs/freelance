@@ -22,8 +22,8 @@ const SE_MULTIPLIER = 0.9235;
 export default function Home() {
   const [location] = useLocation();
 
-  const isUpwork = location === "/tools/upwork-tax-calculator";
-  const isFiverr = location === "/tools/fiverr-tax-calculator";
+  const isUpwork = location === "/tools/upwork-fee-and-tax-calculator";
+  const isFiverr = location === "/tools/fiverr-fee-and-tax-calculator";
   const is1099 = location === "/tools/1099-tax-calculator";
 
   let seoTitle = "US Freelance Net Income & Tax Calculator 2026";

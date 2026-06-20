@@ -11,9 +11,9 @@ const SE_MULTIPLIER = 0.9235;
 
 export default function RateCalculator() {
   useSeo({
-    title: "Freelance Hourly Rate Calculator 2026",
-    description: "Calculate exactly what you need to charge per hour to hit your target take-home pay after taxes and expenses.",
-    path: "/tools/hourly-rate-calculator"
+    title: "Freelance Hourly Rate Calculator 2026 | Calculate Required Rate",
+    description: "Reverse engineer your freelance hourly rate. Enter your target net take-home pay, and we calculate the exact gross hourly rate required after 2026 taxes and expenses.",
+    path: "/tools/freelance-hourly-rate-calculator"
   });
 
   const [targetTakeHomeStr, setTargetTakeHomeStr] = useState("80000");
