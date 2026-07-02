@@ -95,8 +95,7 @@ function MainLayout() {
                 © {new Date().getFullYear()} Tax For Freelancers
               </p>
             </div>
-            
-            <div className="flex flex-row justify-center md:justify-end gap-12 text-sm">
+            <div className="flex flex-row justify-center md:justify-end gap-12 text-sm flex-wrap">
               <div className="space-y-3">
                 <h4 className="font-semibold text-foreground">Pages</h4>
                 <ul className="space-y-2">
@@ -110,6 +109,19 @@ function MainLayout() {
                 <ul className="space-y-2">
                   <li><Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link></li>
                   <li><Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms of Service</Link></li>
+                </ul>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-foreground">Network</h4>
+                <ul className="space-y-2">
+                  <li><a href="https://wtkpro.site" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">WebToolkit Pro</a></li>
+                  <li><a href="https://tradeconvert.pro" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">TradeConvert</a></li>
+                  <li><a href="https://www.severancecalculator.xyz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">Severance Pay</a></li>
+                  <li><a href="https://abusufyan.xyz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">Abu Sufyan</a></li>
+                  <li><a href="https://netizenlabs.online" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">Netizen Labs</a></li>
+                  <li><a href="https://getstudynova.online" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">StudyNova</a></li>
+                  <li><a href="https://quranhub.xyz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">QuranHub</a></li>
+                  <li><a href="https://slabreachcalculator.site" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">SLA Breach Calc</a></li>
                 </ul>
               </div>
             </div>
